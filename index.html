@@ -2,12 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
     <title>qr-code-component-main</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="flex items-center justify-center size-lv w-screen h-screen bg-(--background-color-body)">
+      <div class="h-[475px] w-[320px] bg-(--background-color-component) p-[16px] font-(family-name:--font-outfit) text-center space-y-[24px] rounded-[20px]">
+        <img src="./public/images/image-qr-code.png" alt="Frontend Mentor website QR code" width="288" class="rounded-[10px]">
+        <div class="px-[16px] space-y-[16px] leading-[23px]">
+          <h1 class="text-[20px] font-bold">Improve your front-end skills by building projects</h1>
+          <p class="text-[15px] font-extralight">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
